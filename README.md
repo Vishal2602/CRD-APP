@@ -19,4 +19,4 @@ This assignment is a part of FRESHWORKS Graduate Trainee Recruitment.
 
 ## OUTPUT
 
-    ![alt text](https://github.com/Vishal2602/Freshworks-Assignment/blob/master/OUTPUT/output.PNG)
+    ![Alt text](https://github.com/Vishal2602/Freshworks-Assignment/blob/master/OUTPUT/output.PNG)
