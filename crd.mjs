@@ -99,7 +99,7 @@ export class dbs {
                 return
             } else {
                 this.data[key] = value;
-                //Writing into DB
+            
                 fs.writeFileSync(this.dbPath, JSON.stringify(this.data), function (err) {
                     if (err) {
                         console.log(err)

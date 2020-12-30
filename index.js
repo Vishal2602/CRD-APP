@@ -3,9 +3,7 @@ import {
 } from './crd.mjs';
 
 
-//Creating DB instance
 let db = new dbs()
-// Starting Db
 const Promisenew = new Promise(async (resolve, reject) => {
     await db.dbinit(process.argv[2])
         .then((resp) => {
@@ -16,17 +14,11 @@ const Promisenew = new Promise(async (resolve, reject) => {
         })
 });
 
-//Sample Create files
+
 let dbcreate = {
-    "A": {
-        name: 'VISHAL'
-    },
-    "B": {
-        name: 'DAN BROWN'
-    },
-    "C": {
-        name: 'Dhoni'
-    }
+    "A": {name: 'VISHAL'},
+    "B": {name: 'DAN BROWN'},
+    "C": {name: 'Dhoni'}
 }
 let dbread = ['A', 'B', 'G']
 let dbdelete = ['B']
