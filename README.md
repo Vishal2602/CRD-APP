@@ -18,5 +18,4 @@ This assignment is a part of FRESHWORKS Graduate Trainee Recruitment.
 - Delete
 
 ## OUTPUT
-
-    ![Optional text](../master/OUTPUT/output.png)
+![Alt text](https://github.com/Vishal2602/Freshworks-Assignment/blob/master/OUTPUT/output.PNG)
