@@ -19,4 +19,10 @@ This assignment is a part of FRESHWORKS Graduate Trainee Recruitment.
 
 ## OUTPUT
 
-    ![Optional text](../master/OUTPUT/output.png)
+### Created JSON File
+
+![Alt text](https://github.com/Vishal2602/Freshworks-Assignment/blob/master/OUTPUT/output1.PNG)
+
+### OPERATIONS
+
+![Alt text](https://github.com/Vishal2602/Freshworks-Assignment/blob/master/OUTPUT/output.PNG)
