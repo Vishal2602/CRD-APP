@@ -1,0 +1,13 @@
+{
+  "type": "module",
+  "name": "freshworks",
+  "version": "1.0.0",
+  "description": "CRD operations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1",
+    "run": "node app.js"
+  },
+  "author": "Vishal S",
+  "license": "MIT"
+}
