@@ -17,46 +17,33 @@ const Promisenew = new Promise(async (resolve, reject) => {
 });
 
 //Sample Create files
-let sample_create = {
-    "1": {
-        name: 'A'
+let dbcreate = {
+    "A": {
+        name: 'VISHAL'
     },
-    "2": {
-        name: ',B'
+    "B": {
+        name: 'DAN BROWN'
     },
-    "3": {
-        name: 'C'
-    },
-    "4": {
-        name: 'D'
-    },
+    "C": {
+        name: 'Dhoni'
+    }
 }
+let dbread = ['A', 'B', 'G']
+let dbdelete = ['B']
 
-//Sample Read Keys
-let sample_read = ['1', '2', '3', '4', '5']
 
-//Sample Delete keys
-let sample_delete = ['1', '2', '5']
-
-//After starting DB Doing CRD Operations
 Promisenew.then(async (res) => {
 
-    //Create operation
-    for (let each in sample_create) {
-        db.create(each, sample_create[each]).then((res) => {}).catch((error) => {})
-    }
-    //Reading after inserting
-    for (let each in sample_read) {
-        db.read(sample_read[each]).then((res) => {}).catch((error) => {})
-    }
-    //Deleting Some values
-    for (let each in sample_delete) {
-        db.delete(sample_delete[each]).then((res) => {}).catch((error) => {})
-    }
-    //Reading after deleting some Value
-    for (let each in sample_read) {
-        db.read(sample_read[each]).then((res) => {}).catch((error) => {})
-    }
 
+    for (let each in dbcreate) {
+        db.create(each, dbcreate[each]).then((res) => {}).catch((error) => {})
+    }
+    for (let each in dbread) {
+        db.read(dbread[each]).then((res) => {}).catch((error) => {})
+    }
+    for (let each in dbdelete) {
+        db.delete(dbdelete[each]).then((res) => {}).catch((error) => {})
+    }
+  
 })
 .catch((error)=>{})
