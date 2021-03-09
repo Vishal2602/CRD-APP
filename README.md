@@ -1,6 +1,4 @@
-# Freshworks-Assignment
-
-This assignment is a part of FRESHWORKS Graduate Trainee Recruitment.
+# CRD APP
 
 ## To start the porject file
 
